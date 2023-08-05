@@ -1,0 +1,30 @@
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    gap: 20px;
+    padding-left: 20px;
+    justify-items: center;
+    margin: 40px auto;
+  }
+  
+  .category {
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .category img {
+    width: 100%;
+    max-width: 310px;
+    height: auto;
+  }
+  
+  .category-name {
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    padding-right: 55px;
+  }
+  
+  /* Add your additional styling here */
+  
